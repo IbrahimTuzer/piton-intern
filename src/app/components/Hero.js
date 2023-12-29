@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       {/* Orta kısımdaki metin */}
       <div className="text-center text-black relative z-10 w-1121 mx-auto">
-        <h1 className="text-4xl font-bold font-mono text-3xl">
+        <h1 className="text-4xl font-bold font-text-3xl">
           Let’s create something <br className="md:hidden" /> great together.
         </h1>
       </div>

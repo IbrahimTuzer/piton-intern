@@ -1,9 +1,10 @@
-import { Inter } from 'next/font/google'
+import { Inter, Manrope} from 'next/font/google'
 import './globals.css'
 import Hero from './components/Hero'
 import Contact from './components/Contact'
 
-const inter = Inter({ subsets: ['latin'] })
+const manrope = Manrope({ subsets: ['latin'] })
+
 
 export const metadata = {
   title: 'Piton',
@@ -12,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={manrope.className}>
       <body>
          <Hero />
          {children}
