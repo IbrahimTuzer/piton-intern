@@ -5,7 +5,7 @@ const Info = () => {
   return (
     <div className="mx-auto w-4/5 h-219">
       <h2 className="text-4xl font-bold mb-4">Who Are We?</h2>
-      <p className="text-gray-700 mb-4">
+      <p className="text-2xl">
         We love what we do and create partnerships with our clients to ensure their digital
         transformation is positioned for long-term success. We believe that the human dimensions
         are essential to start any successful project and that this is where splendid emotional
@@ -17,7 +17,7 @@ const Info = () => {
           alt="Mid Image"
           width={1522}
           height={219}
-          className="w-full h-full object-cover rounded-md mb-8"
+          className="mt-32"
         />
       </div>
     </div>

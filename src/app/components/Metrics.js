@@ -3,8 +3,8 @@ import React from 'react';
 const MetricItem = ({ metric, description }) => {
   return (
     <div className="w-238 h-134 mx-4 my-4 bg-black text-white p-4 flex flex-col justify-between">
-      <p className="text-yellow-500 text-3xl mb-4">{metric}</p>
-      <p className="text-sm">{description}</p>
+      <p className="text-yellow-500 text-6xl mb-4">{metric}</p>
+      <p className="text-,">{description}</p>
     </div>
   );
 };

@@ -8,7 +8,7 @@ const TeamMember = ({ src, alt, name, role }) => {
         <Image
           src={src}
           alt={alt}
-          width={365} // Gölge etkisi için içerideki resim boyutları biraz daha küçültüldü
+          width={365} 
           height={368}
           
         />
@@ -23,14 +23,14 @@ const TeamMember = ({ src, alt, name, role }) => {
 
 const Team = () => {
   return (
-    <div className="text-center">
-      <h2 className="text-4xl font-bold mb-8">Meet the Heroes Behind the Magic</h2>
+    <div >
+      <h2 className="text-4xl font-bold mb-8 text-center">Meet the Heroes Behind the Magic</h2>
       <div className="w-4/5 mx-auto">
         <div className="flex justify-around">
           <TeamMember
             src="/founder.png"
             alt="Founder"
-            name="John Doe"
+            name="Esther Howard"
             role="Founder"
           />
           <TeamMember
@@ -42,7 +42,7 @@ const Team = () => {
           <TeamMember
             src="/designer.png"
             alt="Designer"
-            name="Alex Johnson"
+            name="Brooklyn Simmons"
             role="Designer"
           />
         </div>
